@@ -1,0 +1,154 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px ;
+}
+#topbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+
+}
+#logo{
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+}
+.menu-items{
+    margin: 25px;
+    cursor: pointer;
+    color: silver;
+}
+.menu-items:hover{
+    color: #000;
+    
+}
+#button1{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    border: 0px solid #fff;
+    margin-right: 20px ;
+    cursor: pointer;
+}
+#menu-icon{
+    font-size: 30px;
+    display: none;
+}
+#landing-section{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+#text-section{
+max-width: calc(40% - 60px);
+margin-left: 120px ;
+
+}
+#image-section{
+    max-width: 60%;
+    margin-left: 0px;
+    margin-right:0px ;
+    padding: 0px;
+}
+#image{
+    background-color: #fff;
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+
+}
+#button2{
+    background-color: rgb(251, 189, 240);
+    padding: 10px 20px;
+    border: 0px solid #fff;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+
+}
+#heading{
+    font-size: 50px;
+    margin-bottom: 0px ;
+}
+#para{
+    color: silver;
+}
+#button3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: slateblue;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border: 0px solid #fff;
+    cursor: pointer;
+
+
+}
+#description{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+#arrows i{
+    padding: 20px;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    box-shadow: 1px 0px silver;
+    cursor: pointer;
+}
+#arrows i:hover{
+    background-color:rgb(105, 122, 253) ;
+}
+#details{
+    display: flex;
+}
+#num{
+    color: rgb(105, 122, 253);
+    margin: 0px 5px;
+}
+#name{
+    margin: 0px 5px;
+
+}
+@media(max-width:600px){
+    
+    .menu-items{
+        display: none;
+        <i class="fas fa-bars"></i>
+    }
+    #button1{
+        display: none;
+    }
+    #landing-section{
+        display: flex;
+        flex-direction: column;
+    }
+    #text-section{
+        width: 100%;
+    }
+    #image-section{
+        width: 100%;
+    }
+    #image{
+        width: 600px;
+        margin-top:20px ;
+    }
+    #description{
+        margin-top: 50px ;
+
+    }
+    #menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
